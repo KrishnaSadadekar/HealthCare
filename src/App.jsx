@@ -3,7 +3,7 @@ import TopBar from "./Components/TopBar";
 import LeftBar from "./Components/LeftBar";
 import Dashboard from "./Components/Dashboard";
 import History from "./Components/History";
-
+import Calendar from "./Components/Calendar";
 const App = () => {
   return (
     <div className="main">
@@ -17,7 +17,8 @@ const App = () => {
         <section className="left-route">
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/his" element={<History />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/calendar" element={<Calendar />} />
           </Routes>
         </section>
       </article>
