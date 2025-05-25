@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(214, 236, 243);
+}
+.main {
+  background: white;
+  margin: 25px 25px;
+  height: 750px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+.main .top {
+  margin: 20px;
+  height: 100px;
+  width: 95%;
+  background-color: white;
+}
+/* TopBar Area */
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  background: white;
+  gap: 25%;
+  position: inherit;
+}
+.top-logo > img {
+  height: 100px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.top-search {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-search input {
+  height: 50px;
+  width: 300px;
+  border: 1px solid grey;
+  margin: 20px;
+  border-radius: 10px;
+  background: white;
+}
+.top-search .button {
+  height: 30px;
+  width: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background: white;
+  color: rgb(15, 15, 161);
+}
+.top-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background: white;
+  gap: 20px;
+}
+.top-avatar > img {
+  height: 60px;
+  width: 60px;
+  background: rgb(9, 177, 243);
+  border-radius: 15px;
+}
+.top-avatar .img {
+  height: 70px;
+  width: 70px;
+  background: white;
+  color: rgb(15, 15, 161);
+}
+
+/* Main Dashboard Area */
+.left {
+  height: 80%;
+  width: 95%;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* left Navbar */
+.left-bar {
+  background: white;
+  width: 20%;
+}
+
+/* Dashboard-Routes */
+.left-route {
+  background: white;
+  width: 80%;
+}
